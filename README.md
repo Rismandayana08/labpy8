@@ -153,3 +153,15 @@ Data Tidak Di Temukan
 Masukan PIlihan (1-5): 5
 Program telah Selesai, Terima Kasih
 ````
+## PENJELASAN
+Penjelasan Program Utama:
+
+- Class PersonManager Digunakan untuk mengelola data mahasiswa, seperti menambah, menampilkan, menghapus, atau mengubah data.
+- Menu Interaktif: Program menyediakan menu untuk memilih operasi:
+  1.  Tambah data mahasiswa.
+  2.  Tampilkan semua data mahasiswa.
+  3.  Hapus data mahasiswa berdasarkan nama.
+  4.  Ubah nilai mahasiswa berdasarkan nama.
+  5.  Keluar dari program.
+- Validasi Input: Menggunakan try-except untuk menangani input yang tidak valid, seperti saat memasukkan nilai yang seharusnya berupa angka.
+- Pengulangan Program: Menggunakan while True agar program terus berjalan sampai pengguna memilih opsi untuk keluar.
